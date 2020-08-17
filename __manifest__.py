@@ -8,6 +8,7 @@
     'description': 'Add consumption type in BOM lines to define component consumption type (fixed, variable, formula)',
     'data': [
         'views/mrp_bom_views.xml',
+        'views/product_attribute_views.xml',
     ],
     'installable': True,
     'application': False,

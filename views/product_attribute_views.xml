@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="product_attribute_view_form" model="ir.ui.view">
+            <field name="name">product.attribute.form.inherit.mrp.constype</field>
+            <field name="model">product.attribute</field>
+            <field name="inherit_id" ref="product.product_attribute_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='value_ids']/tree/field[@name='name']" position="after">
+                    <field name="mrp_bom_formula_factor" />
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
