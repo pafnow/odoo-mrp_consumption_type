@@ -3,7 +3,7 @@
     'name': 'BOM Component Consumption Type',
     'version': '13.0.1.0.0',
     'depends': ['mrp', 'product'],
-    'author': 'Pafnow',
+    'author': 'MRM, Pafnow',
     'category': 'MRP',
     'description': 'Add consumption type in BOM lines to define component consumption type (fixed, variable, formula)',
     'data': [
